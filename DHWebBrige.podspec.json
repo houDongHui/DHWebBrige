@@ -12,7 +12,7 @@
     "dh": "915529889@qq.com"
   },
   "source": {
-    "http": "https://github.com/houDongHui/DHWebBrige.git/UMDevice_3.4.0.zip"
+    "http": "https://github.com/houDongHui/DHWebBrige/blob/e8f84d95422688bee0205f51d3bb339876c3e03f/DHWebBrige.zip"
   },
   "platforms": {
     "ios": "15.0"
