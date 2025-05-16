@@ -19,7 +19,7 @@
     },
     "requires_arc": true,
     "ios": {
-      "vendored_frameworks": "DHWebBrige_0.0.1/*"
+      "vendored_frameworks": "DHWebBrige_0.0.1/*.xcframework"
     },
     "pod_target_xcconfig": {
       "VALID_ARCHS": "x86_64 arm64"
