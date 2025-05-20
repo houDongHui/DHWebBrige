@@ -1,0 +1,16 @@
+PODS:
+  - DHWebBrige (0.0.1)
+
+DEPENDENCIES:
+  - DHWebBrige (from `../`)
+
+EXTERNAL SOURCES:
+  DHWebBrige:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DHWebBrige: 49ccc3e77d02e564eefb7d2eb0becc4dab416c48
+
+PODFILE CHECKSUM: ed322533bdb5b6121cf3f2a77943104eb2871ed3
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,53 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios18.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DHWebBrigeKit
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class DHWebBrigeConfig : ObjectiveC.NSObject {
+  public static let shared: DHWebBrigeKit.DHWebBrigeConfig
+  public var url: Swift.String
+  public func config(accessId: Swift.String, url: Swift.String)
+  @objc deinit
+}
+public typealias DHToPageMessageCallback = (_ body: Swift.String) -> ()
+public typealias DHShopStatusListener = (_ body: Swift.String) -> ()
+public func dh_floatView(addVC: UIKit.UIViewController? = nil, stateBarBackgroundColor: UIKit.UIColor = .clear, location: Swift.String, toPageCallback: DHWebBrigeKit.DHToPageMessageCallback? = nil, statusListener: DHWebBrigeKit.DHShopStatusListener? = nil)
+public func dh_floatViewOnVideoPause(vc: UIKit.UIViewController? = nil)
+public func dh_listView() -> DHWebBrigeKit.DHListView
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public func dh_viewDidDisappear()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DHListView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var dh_toPageCallback: DHWebBrigeKit.DHToPageMessageCallback?
+  @_Concurrency.MainActor @preconcurrency public var dh_statusListener: DHWebBrigeKit.DHShopStatusListener?
+  @_Concurrency.MainActor @preconcurrency public var quickcepAppVideoID: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var location: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var viewWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var stateBarBackgroundColor: UIKit.UIColor {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func willMove(toSuperview newSuperview: UIKit.UIView?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToSuperview()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutIfNeeded()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+extension DHWebBrigeKit.DHListView : WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+extension DHWebBrigeKit.DHListView {
+  @_Concurrency.MainActor @preconcurrency public func dh_viewDidDisappear()
+  @_Concurrency.MainActor @preconcurrency public func onVideoPause()
+}
+extension DHWebBrigeKit.DHListView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+}

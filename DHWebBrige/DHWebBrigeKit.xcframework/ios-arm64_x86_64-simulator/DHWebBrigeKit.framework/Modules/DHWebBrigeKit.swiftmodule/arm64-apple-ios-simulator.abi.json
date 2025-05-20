@@ -1,0 +1,1895 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DHWebBrigeKit",
+    "printedName": "DHWebBrigeKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DHWebBrigeConfig",
+        "printedName": "DHWebBrigeConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DHWebBrigeConfig",
+                "printedName": "DHWebBrigeKit.DHWebBrigeConfig",
+                "usr": "c:@M@DHWebBrigeKit@objc(cs)DHWebBrigeConfig"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DHWebBrigeKit0aB6ConfigC6sharedACvpZ",
+            "mangledName": "$s13DHWebBrigeKit0aB6ConfigC6sharedACvpZ",
+            "moduleName": "DHWebBrigeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DHWebBrigeConfig",
+                    "printedName": "DHWebBrigeKit.DHWebBrigeConfig",
+                    "usr": "c:@M@DHWebBrigeKit@objc(cs)DHWebBrigeConfig"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit0aB6ConfigC6sharedACvgZ",
+                "mangledName": "$s13DHWebBrigeKit0aB6ConfigC6sharedACvgZ",
+                "moduleName": "DHWebBrigeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DHWebBrigeKit0aB6ConfigC3urlSSvp",
+            "mangledName": "$s13DHWebBrigeKit0aB6ConfigC3urlSSvp",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit0aB6ConfigC3urlSSvg",
+                "mangledName": "$s13DHWebBrigeKit0aB6ConfigC3urlSSvg",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit0aB6ConfigC3urlSSvs",
+                "mangledName": "$s13DHWebBrigeKit0aB6ConfigC3urlSSvs",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit0aB6ConfigC3urlSSvM",
+                "mangledName": "$s13DHWebBrigeKit0aB6ConfigC3urlSSvM",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config(accessId:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DHWebBrigeKit0aB6ConfigC6config8accessId3urlySS_SStF",
+            "mangledName": "$s13DHWebBrigeKit0aB6ConfigC6config8accessId3urlySS_SStF",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DHWebBrigeKit@objc(cs)DHWebBrigeConfig",
+        "mangledName": "$s13DHWebBrigeKit0aB6ConfigC",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "dh_floatView",
+        "printedName": "dh_floatView(addVC:stateBarBackgroundColor:location:toPageCallback:statusListener:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "UIKit.UIViewController?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UIColor",
+            "printedName": "UIKit.UIColor",
+            "hasDefaultArg": true,
+            "usr": "c:objc(cs)UIColor"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.String) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.String) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13DHWebBrigeKit12dh_floatView5addVC23stateBarBackgroundColor8location14toPageCallback14statusListenerySo16UIViewControllerCSg_So7UIColorCSSySScSgAMtF",
+        "mangledName": "$s13DHWebBrigeKit12dh_floatView5addVC23stateBarBackgroundColor8location14toPageCallback14statusListenerySo16UIViewControllerCSg_So7UIColorCSSySScSgAMtF",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "dh_floatViewOnVideoPause",
+        "printedName": "dh_floatViewOnVideoPause(vc:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "UIKit.UIViewController?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13DHWebBrigeKit24dh_floatViewOnVideoPause2vcySo16UIViewControllerCSg_tF",
+        "mangledName": "$s13DHWebBrigeKit24dh_floatViewOnVideoPause2vcySo16UIViewControllerCSg_tF",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "dh_listView",
+        "printedName": "dh_listView()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "DHListView",
+            "printedName": "DHWebBrigeKit.DHListView",
+            "usr": "c:@M@DHWebBrigeKit@objc(cs)DHListView"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13DHWebBrigeKit11dh_listViewAA06DHListF0CyF",
+        "mangledName": "$s13DHWebBrigeKit11dh_listViewAA06DHListF0CyF",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DHWebBrigeKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DHWebBrigeKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DHListView",
+        "printedName": "DHListView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dh_toPageCallback",
+            "printedName": "dh_toPageCallback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DHWebBrigeKit10DHListViewC17dh_toPageCallbackySScSgvp",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC17dh_toPageCallbackySScSgvp",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC17dh_toPageCallbackySScSgvg",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC17dh_toPageCallbackySScSgvg",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC17dh_toPageCallbackySScSgvs",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC17dh_toPageCallbackySScSgvs",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC17dh_toPageCallbackySScSgvM",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC17dh_toPageCallbackySScSgvM",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dh_statusListener",
+            "printedName": "dh_statusListener",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DHWebBrigeKit10DHListViewC17dh_statusListenerySScSgvp",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC17dh_statusListenerySScSgvp",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC17dh_statusListenerySScSgvg",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC17dh_statusListenerySScSgvg",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC17dh_statusListenerySScSgvs",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC17dh_statusListenerySScSgvs",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC17dh_statusListenerySScSgvM",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC17dh_statusListenerySScSgvM",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "quickcepAppVideoID",
+            "printedName": "quickcepAppVideoID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DHWebBrigeKit10DHListViewC18quickcepAppVideoIDSSvp",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC18quickcepAppVideoIDSSvp",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC18quickcepAppVideoIDSSvg",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC18quickcepAppVideoIDSSvg",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC18quickcepAppVideoIDSSvs",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC18quickcepAppVideoIDSSvs",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC18quickcepAppVideoIDSSvM",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC18quickcepAppVideoIDSSvM",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DHWebBrigeKit10DHListViewC8locationSSvp",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC8locationSSvp",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC8locationSSvg",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC8locationSSvg",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC8locationSSvs",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC8locationSSvs",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC8locationSSvM",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC8locationSSvM",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewWidth",
+            "printedName": "viewWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DHWebBrigeKit10DHListViewC9viewWidth14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC9viewWidth12CoreGraphics7CGFloatVvp",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC9viewWidth14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC9viewWidth12CoreGraphics7CGFloatVvg",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC9viewWidth14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC9viewWidth12CoreGraphics7CGFloatVvs",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC9viewWidth14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC9viewWidth12CoreGraphics7CGFloatVvM",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stateBarBackgroundColor",
+            "printedName": "stateBarBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DHWebBrigeKit10DHListViewC23stateBarBackgroundColorSo7UIColorCvp",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC23stateBarBackgroundColorSo7UIColorCvp",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC23stateBarBackgroundColorSo7UIColorCvg",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC23stateBarBackgroundColorSo7UIColorCvg",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC23stateBarBackgroundColorSo7UIColorCvs",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC23stateBarBackgroundColorSo7UIColorCvs",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DHWebBrigeKit10DHListViewC23stateBarBackgroundColorSo7UIColorCvM",
+                "mangledName": "$s13DHWebBrigeKit10DHListViewC23stateBarBackgroundColorSo7UIColorCvM",
+                "moduleName": "DHWebBrigeKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "willMove",
+            "printedName": "willMove(toSuperview:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DHWebBrigeKit@objc(cs)DHListView(im)willMoveToSuperview:",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC8willMove11toSuperviewySo6UIViewCSg_tF",
+            "moduleName": "DHWebBrigeKit",
+            "overriding": true,
+            "objc_name": "willMoveToSuperview:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToSuperview",
+            "printedName": "didMoveToSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DHWebBrigeKit@objc(cs)DHListView(im)didMoveToSuperview",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC18didMoveToSuperviewyyF",
+            "moduleName": "DHWebBrigeKit",
+            "overriding": true,
+            "objc_name": "didMoveToSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutIfNeeded",
+            "printedName": "layoutIfNeeded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DHWebBrigeKit@objc(cs)DHListView(im)layoutIfNeeded",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC14layoutIfNeededyyF",
+            "moduleName": "DHWebBrigeKit",
+            "overriding": true,
+            "objc_name": "layoutIfNeeded",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DHWebBrigeKit@objc(cs)DHListView(im)layoutSubviews",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC14layoutSubviewsyyF",
+            "moduleName": "DHWebBrigeKit",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DHWebBrigeKit@objc(cs)DHListView(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
+            "moduleName": "DHWebBrigeKit",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dh_viewDidDisappear",
+            "printedName": "dh_viewDidDisappear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DHWebBrigeKit10DHListViewC19dh_viewDidDisappearyyF",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC19dh_viewDidDisappearyyF",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoPause",
+            "printedName": "onVideoPause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DHWebBrigeKit10DHListViewC12onVideoPauseyyF",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC12onVideoPauseyyF",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DHWebBrigeKit@objc(cs)DHListView(im)webView:didFinishNavigation:",
+            "mangledName": "$s13DHWebBrigeKit10DHListViewC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "DHWebBrigeKit",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DHWebBrigeKit@objc(cs)DHListView",
+        "mangledName": "$s13DHWebBrigeKit10DHListViewC",
+        "moduleName": "DHWebBrigeKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "dh_viewDidDisappear",
+            "printedName": "dh_viewDidDisappear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UIViewControllerC13DHWebBrigeKitE19dh_viewDidDisappearyyF",
+            "mangledName": "$sSo16UIViewControllerC13DHWebBrigeKitE19dh_viewDidDisappearyyF",
+            "moduleName": "DHWebBrigeKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/Config\/DHWebBrige.swift",
+      "kind": "BooleanLiteral",
+      "offset": 697,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/Config\/DHWebBrige.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/Config\/DHWebBrige.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/Config\/DHWebBrige.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1525,
+      "length": 9,
+      "value": "100000019"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/Extension\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/Extension\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 370,
+      "length": 4,
+      "value": "83.0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/Extension\/Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 379,
+      "length": 4,
+      "value": "49.0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/Extension\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2131,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 164,
+      "length": 3,
+      "value": "112"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1066,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1191,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1319,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1518,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1570,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1621,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "Array",
+      "offset": 1765,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1929,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHFloatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2169,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 149,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 180,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1090,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1096,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1526,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1856,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1906,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "Array",
+      "offset": 2050,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2214,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2328,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2371,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2414,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2448,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hdh-ybs\/Desktop\/我的\/DHWebBrige\/DHWebBrigeKit\/View\/DHListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2499,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
